@@ -13,7 +13,7 @@ import ManyToOne.dto.Employee;
 
 public class employeeDao {
 
-	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("mayur");
+	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("prasad");
 	EntityManager entityManager = entityManagerFactory.createEntityManager();
 	EntityTransaction entityTransaction = entityManager.getTransaction();
 
